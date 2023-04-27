@@ -1,0 +1,85 @@
+:root {
+  --navy-blue:#0B2447;
+  --lighter-blue:#19376D;
+  --sea-blue:#576CBC;
+  --sky-blue:#A5D7E8;
+}
+
+
+body {
+font-family: 'Poppins', sans-serif;
+width:100%;
+height:100vh;
+background-color:var(--sky-blue);
+margin:0;
+}
+
+#title {
+  text-align:center;
+  font-size:2em;
+  padding:10px;
+  color:var(--navy-blue);
+}
+#description {
+    text-align:center;
+    font:  bold 16px Georgia, serif;
+    color:var(--navy-blue);
+    
+}
+#survey-form {
+   width: 60vw;
+max-width: 500px;
+min-width: 300px;
+margin: 0 auto;
+padding-bottom: 2em;
+}
+#name-label, #email-label,#number-label,.options{
+  display:block;
+  padding-top:10px;
+  font-size:16px;
+}
+#number,#email,#number,#name , select {
+   display:block;
+   margin: 10px 0 0 0;
+   width: 100%;
+   min-height: 2em;
+   padding:8px;
+}
+ .form-group {
+    margin: 0 auto 1.25rem auto;
+ }
+ .block {
+   padding:5px;
+ }
+ option,select {
+  font-size:16px;
+ }
+   
+.text-area > label {
+  text-align:left;
+ display: flex;
+flex-direction: column;
+align-items: center;
+ width:100%;
+ padding:10px;
+}   
+textarea {
+margin-top:20px;
+}
+.button {
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+.submit-button {
+ 
+  width: 200px;
+  padding: 0.75rem;
+  background: green;
+  border-radius: 2px;
+  cursor: pointer;
+  color:white;
+ 
+}
+
